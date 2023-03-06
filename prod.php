@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
 				
 			if ($conn->query($sql) === TRUE) {
 					
-				  echo "New Record Added Successfully";
+				//   echo "New Record Added Successfully";
 				} else {
 				  echo "Error: " . $sql . "<br>" . $conn->error;
 				}
@@ -76,8 +76,8 @@ if (isset($_POST['submit'])) {
 			</div>
             
 			<div class="button-container">
-			    <input class="btn btn-primary" type=submit value=save name=submit >
-                <input class="btn btn-danger" type=reset value=reset >
+			    <button class="btn btn-primary" type="submit" value="save" name="submit" onclick="alert('Product added successfully!')">SAVE</button>
+                <button class="btn btn-danger" type="reset" value="reset" onclick="alert('Reset successful')">RESET</button>
 			</div>
         </form>
 	</div>
