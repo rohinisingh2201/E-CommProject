@@ -2,7 +2,7 @@
      <div class="container">
 		<div class="row">
 		    <div class="company-name">
-			   <h2>Welcome !!! </h2>
+			   <h2>Welcome</h2>
 			</div>
 			
 			<ul class="main-nav">
